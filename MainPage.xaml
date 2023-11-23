@@ -34,7 +34,7 @@
 				x:Name="itemList2"
 				Text="Admin Panel"
 				SemanticProperties.Hint="Counts the number of times you click"
-				Clicked="ItemPage"
+				Clicked="Adminpanel"
 				HorizontalOptions="Center" />
         </VerticalStackLayout>
 	</ScrollView>

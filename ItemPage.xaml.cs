@@ -1,4 +1,4 @@
-using Inventory_maui.WinUI;
+using Inventory_maui;
 
 namespace Inventory_maui;
 

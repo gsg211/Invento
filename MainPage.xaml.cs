@@ -15,5 +15,10 @@ namespace Inventory_maui
         {
             Navigation.PushAsync(new ItemPage());
         }
+
+        private void Adminpanel(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PasswordPage());
+        }
     }
 }
