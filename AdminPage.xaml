@@ -8,5 +8,17 @@
             Text="Welcome to Admin Page!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Button
+            x:Name="MainPageBtn"
+            Text="Back to home page"
+            SemanticProperties.Hint="Checks your password"
+            Clicked="MainPage"
+            HorizontalOptions="Center" />
+        <Button
+            x:Name="addItemBtn"
+            Text="Acces Admin Panel"
+            SemanticProperties.Hint="Checks your password"
+            Clicked="addItem"
+            HorizontalOptions="Center" />
     </VerticalStackLayout>
 </ContentPage>

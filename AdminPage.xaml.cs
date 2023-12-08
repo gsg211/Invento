@@ -6,4 +6,12 @@ public partial class AdminPage : ContentPage
 	{
 		InitializeComponent();
 	}
+    private void MainPage(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new MainPage());
+    }
+    private void addItem(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new AddItemPage());
+    }
 }
