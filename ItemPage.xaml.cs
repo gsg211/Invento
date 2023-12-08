@@ -9,11 +9,11 @@ public partial class ItemPage : ContentPage
         InitializeComponent();
 	}
 
-    private void MainPage(object sender, EventArgs e)
+    private void mainPage(object sender, EventArgs e)
     {
         Navigation.PushAsync(new MainPage());
     }
-    private void Additem(object sender, EventArgs e)
+    private void addItem(object sender, EventArgs e)
     {
         try
         {
@@ -29,7 +29,7 @@ public partial class ItemPage : ContentPage
             Console.WriteLine(ex.ToString());
         }
     }
-    private void SetItem(object sender, EventArgs e)
+    private void setItem(object sender, EventArgs e)
     {
         string text = App.DatabaseContext.GetAllitems()[0].Name;
         textfield.Text = text;

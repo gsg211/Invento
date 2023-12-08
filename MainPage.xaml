@@ -16,10 +16,10 @@
 				HorizontalOptions="Center" />
 
 			<Button
-				x:Name="itemList"
+				x:Name="itemListBtn"
 				Text="See items"
 				SemanticProperties.Hint="Counts the number of times you click"
-				Clicked="ItemPage"
+				Clicked="itemPage"
 				HorizontalOptions="Center" />
 
 
@@ -27,14 +27,14 @@
 				x:Name="itemList1"
 				Text="New Purchase"
 				SemanticProperties.Hint="Counts the number of times you click"
-				Clicked="ItemPage"
+				Clicked="itemPage"
 				HorizontalOptions="Center" />
 
             <Button
-				x:Name="itemList2"
-				Text="Admin Panel"
+				x:Name="adminPanelBtn"
+				Text="admin Panel"
 				SemanticProperties.Hint="Counts the number of times you click"
-				Clicked="Adminpanel"
+				Clicked="adminpanel"
 				HorizontalOptions="Center" />
         </VerticalStackLayout>
 	</ScrollView>

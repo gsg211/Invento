@@ -7,16 +7,14 @@ namespace Inventory_maui
         public MainPage()
         {
             InitializeComponent();
-
-
         }
 
-        private void ItemPage(object sender, EventArgs e)
+        private void itemPage(object sender, EventArgs e)
         {
             Navigation.PushAsync(new ItemPage());
         }
 
-        private void Adminpanel(object sender, EventArgs e)
+        private void adminpanel(object sender, EventArgs e)
         {
             Navigation.PushAsync(new PasswordPage());
         }

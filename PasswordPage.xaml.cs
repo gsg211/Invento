@@ -17,7 +17,7 @@ public partial class PasswordPage : ContentPage
     {
         string text = ((Entry)sender).Text;
     }
-    private void Access(object sender, EventArgs e)
+    private void access(object sender, EventArgs e)
     {
         if(PasswordEntry.Text==TempPass)
         {

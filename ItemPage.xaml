@@ -11,22 +11,23 @@
             HorizontalOptions="Center" />
 
         <Button
-	        x:Name="back"
+	        x:Name="backBtn"
 	        Text="Go Back"
 	        SemanticProperties.Hint="Counts the number of times you click"
-	        Clicked="MainPage"
+	        Clicked="mainPage"
             HorizontalOptions="Center"/>
         <Button
             x:Name="setitemBtn"
             Text="set item"
             SemanticProperties.Hint="Counts the number of times you click"
-            Clicked="Additem"
+            Clicked="addItem"
             HorizontalOptions="Center"/>
         <Button
             x:Name="getitemBtn"
             Text="get item"
             SemanticProperties.Hint="Counts the number of times you click"
-            Clicked="SetItem"
+            Clicked="setItem"
             HorizontalOptions="Center"/>
+        
     </VerticalStackLayout>
 </ContentPage>
